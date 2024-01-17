@@ -86,11 +86,11 @@ def remove_logs():
 
 
 while True:
-    if time.strftime('%H:%M') == '18:37':
+    if time.strftime('%H:%M') == '18:00':
         valor = int(time.strftime('%d')) - 1
         data_considerada = str(valor)+time.strftime('/%m/%Y')
-        path_venv_tel = '\\\\TELFSBAR01\\Planejamento$\\2022\\43 - MIS\\22 - Relatórios Olos\\'
-        path_download = 'C:\\Users\\Roboplan\\Downloads\\'
+        path_venv_tel = path_venv
+        path_download = path_download
 
 
         chromedriver_autoinstaller.install()
